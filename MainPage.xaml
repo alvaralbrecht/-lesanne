@@ -1,0 +1,79 @@
+﻿<Page
+    x:Class="ülesanne1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ülesanne1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Pivot>
+            <PivotItem Header="Pivot" Name="pivot1">
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <ScrollViewer Grid.Row="1">
+
+                        <ListView Name="listview1"
+                                  SelectionMode="None"
+                                  IsItemClickEnabled="True"
+                                  Background="Gray">
+
+                            <ListViewItem Background="Gray">Item1</ListViewItem>
+                            <ListViewItem Background="LightGray">Item2</ListViewItem>
+                            <ListViewItem Background="Gray">Item3</ListViewItem>
+                            <ListViewItem Background="LightGray">Item4</ListViewItem>
+                            <ListViewItem Background="Gray">Item5</ListViewItem>
+                            <ListViewItem Background="LightGray">Item6</ListViewItem>
+                            <ListViewItem Background="Gray">Item7</ListViewItem>
+                            <ListViewItem Background="LightGray">Item8</ListViewItem>
+                            <ListViewItem Background="Gray">Item9</ListViewItem>
+                            <ListViewItem Background="LightGray">Item10</ListViewItem>
+                            <ListViewItem Background="Gray">Item11</ListViewItem>
+                            <ListViewItem Background="LightGray">Item12</ListViewItem>
+                            <ListViewItem Background="Gray">Item13</ListViewItem>
+                            <ListViewItem Background="LightGray">Item14</ListViewItem>
+                            <ListViewItem Background="Gray">Item15</ListViewItem>
+                            <ListViewItem Background="LightGray">Item16</ListViewItem>
+                            <ListViewItem Background="Gray">Item17</ListViewItem>
+                            <ListViewItem Background="LightGray">Item18</ListViewItem>
+                            <ListViewItem Background="Gray">Item19</ListViewItem>
+                            <ListViewItem Background="LightGray">Item20</ListViewItem>
+                            <ListViewItem Background="Gray">Item21</ListViewItem>
+                            <ListViewItem Background="LightGray">Item22</ListViewItem>
+                            <ListViewItem Background="Gray">Item23</ListViewItem>
+                            <ListViewItem Background="LightGray">Item24</ListViewItem>
+                            <ListViewItem Background="Gray">Item25</ListViewItem>
+                            <ListViewItem Background="LightGray">Item26</ListViewItem>
+                            <ListViewItem Background="Gray">Item27</ListViewItem>
+                            <ListViewItem Background="LightGray">Item28</ListViewItem>
+                            <ListViewItem Background="Gray">Item29</ListViewItem>
+                            <ListViewItem Background="LightGray">Item30</ListViewItem>
+                            <ListViewItem Background="Gray">Item31</ListViewItem>
+                            <ListViewItem Background="LightGray">Item32</ListViewItem>
+                            <ListViewItem Background="Gray">Item33</ListViewItem>
+                            <ListViewItem Background="LightGray">Item34</ListViewItem>
+                            <ListViewItem Background="Gray">Item35</ListViewItem>
+                            <ListViewItem Background="LightGray">Item36</ListViewItem>
+                        </ListView>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Pivot" Name="pivot2">
+                <TextBlock></TextBlock>
+            </PivotItem>
+            <PivotItem Header="Pivot" Name="pivot3">
+                <TextBlock></TextBlock>
+            </PivotItem>
+            <PivotItem Header="Pivot" Name="pivot4">
+                <TextBlock></TextBlock>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>
